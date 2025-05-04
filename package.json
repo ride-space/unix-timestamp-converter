@@ -2,8 +2,8 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "unix-timestamp-converter",
   "title": "Unix Timestamp Converter",
-  "description": "Convert Unix timestamps to readable date and time formats for any country or timezone. Simply enter a Unix timestamp to see it converted to your selected region's time format. Future updates will include converting human-readable dates to Unix time.",
-  "icon": "extension-icon.png",
+  "description": "Convert Unix timestamps to readable date and time formats for any country or timezone, or generate Unix timestamps from human-readable dates. Supports multiple time zones and display formats.",
+  "icon": "unix-timestamp-converter-icon.png",
   "author": "ride-space",
   "license": "MIT",
   "commands": [
@@ -12,14 +12,14 @@
       "title": "Convert Timestamp",
       "subtitle": "Unix Time Converter",
       "description": "Convert Unix timestamps to human-readable date and time formats for any timezone. Simply enter a Unix timestamp to see it converted to your preferred regional format.",
-      "mode": "no-view"
+      "mode": "view"
     },
     {
       "name": "generate-timestamp",
       "title": "Generate Timestamp",
       "subtitle": "Unix Time Converter",
       "description": "Create Unix timestamps from human-readable dates and times. Enter a date in your preferred format to convert it to Unix time.",
-      "mode": "no-view"
+      "mode": "view"
     }
   ],
   "dependencies": {
